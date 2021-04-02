@@ -1,0 +1,125 @@
+/********** Base styles **********/
+
+
+* {
+  box-sizing: border-box;
+
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+div{
+  position: relative;
+ 
+  left: 10px;
+
+}
+h2 {
+  border: 1px solid black;
+  
+  position: relative;
+  bottom:16%;
+  left: 70%;
+  font-family: Helvetica;
+  color: white;
+  width: 30%
+}
+span{
+
+width: 90%;
+height: 150px;
+margin-right: auto;
+margin-left: auto;
+
+}
+#p1 {
+ background-color:#f28d49 ;
+
+}
+#p2 {
+ background-color:#1dcc1f;
+}
+#p3 {
+ background-color:#5c5fed; 
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.b{
+   background-color:#bfbebd
+
+}
+/********** browser window **********/
+@media (min-width: 992px) {
+  .col-wd-1, .col-wd-2, .col-wd-3{
+    float: left;
+    border: 5px solid black;
+    position: relative;
+    left: 40px;
+  }
+  .col-wd-1 {
+    width: 25%;
+    left:  40px;
+  }
+  .col-wd-2 {
+    width: 25%;
+    left: 60px;
+  }
+  .col-wd-3 {
+    width: 25%;
+    left: 80px;
+  }
+  
+  
+}
+
+/********** Tablet  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-1, .col-tb-2, .col-tb-3{
+    float: left;
+    border: 5px solid black;
+    position: relative;
+    left: : 40px;
+  }
+  .col-tb-1 {
+    width: 50%;
+    left:  40px;
+  }
+  .col-tb-2 {
+    width: 50%;
+    left: 50px;
+   
+  }
+  .col-tb-3 {
+    width: 100%;
+    left: 40px;
+    top: 40px;
+
+  }
+  
+/********** Mobile  **********/
+@media (max-width: 767px) {
+  .col-mb-1, .col-mb-2, .col-mb-3{
+    float: left;
+    border: 5px solid black;
+    position: relative;
+    left: : 40px;
+  }
+  .col-mb-1 {
+    width: 100%;
+    top: 40px;
+  }
+  .col-mb-2 {
+    width: 100%;
+    top: 60px;
+  }
+  .col-mb-3 {
+    width: 100%;
+    top: 80px;
+  }
+
+}
